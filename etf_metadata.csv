@@ -1,0 +1,8 @@
+ticker,name,isin,provider,category,benchmark_name,benchmark_ticker,currency,ter,aum_eur,launch_date,replication,distribution_policy,domicile,sfdr,esg,source_url,last_verified
+CW8.PA,Amundi MSCI World UCITS ETF Acc,LU1681043599,Amundi,MSCI World,MSCI World,URTH,EUR,0.0038,,2018-04-18,Synthetic,Accumulating,Luxembourg,Article 6,No,https://www.amundietf.fr/,2026-07-20
+IWDA.AS,iShares Core MSCI World UCITS ETF USD Acc,IE00B4L5Y983,iShares,MSCI World,MSCI World,URTH,USD,0.0020,,2009-09-25,Physical,Accumulating,Ireland,Article 6,No,https://www.ishares.com/uk/individual/en/products/251882/,2026-07-20
+WPEA.PA,iShares MSCI World Swap PEA UCITS ETF,IE0002XZSHO1,iShares,MSCI World,MSCI World,URTH,EUR,0.0025,,2024-03-26,Synthetic,Accumulating,Ireland,Article 6,No,https://www.ishares.com/fr/particuliers/fr/produits/335178/,2026-07-20
+CSPX.AS,iShares Core S&P 500 UCITS ETF USD Acc,IE00B5BMR087,iShares,S&P 500,S&P 500,^GSPC,USD,0.0007,,2010-05-19,Physical,Accumulating,Ireland,Article 6,No,https://www.ishares.com/uk/individual/en/products/253743/,2026-07-20
+VUAA.DE,Vanguard S&P 500 UCITS ETF USD Acc,IE00BFMXXD54,Vanguard,S&P 500,S&P 500,^GSPC,USD,0.0007,,2019-05-14,Physical,Accumulating,Ireland,Article 6,No,https://www.fr.vanguard/professionnel/produits/etf/actions/9694/sp-500-ucits-etf-usd-accumulating,2026-07-20
+ESE.PA,BNP Paribas Easy S&P 500 UCITS ETF EUR C,FR0011550185,BNP Paribas Asset Management,S&P 500,S&P 500,^GSPC,EUR,0.0012,,2013-09-13,Synthetic,Accumulating,France,Article 8,Yes,https://www.easy.bnpparibas.fr/,2026-07-20
+MEUD.PA,Amundi STOXX Europe 600 UCITS ETF Acc,LU0908500753,Amundi,Europe,STOXX Europe 600,^STOXX,EUR,0.0007,,2013-07-11,Physical,Accumulating,Luxembourg,Article 6,No,https://www.amundietf.fr/,2026-07-20

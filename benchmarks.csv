@@ -1,0 +1,4 @@
+benchmark_name,benchmark_ticker,description
+MSCI World,URTH,Public price proxy for demonstration only
+S&P 500,^GSPC,Public price-index proxy
+STOXX Europe 600,^STOXX,Public price proxy

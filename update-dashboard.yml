@@ -1,0 +1,27 @@
+name: Update ETF Intelligence Dashboard
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1-5"
+permissions:
+  contents: write
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python generate_dashboard.py
+      - run: |
+          test -s docs/index.html
+          test $(wc -c < docs/index.html) -gt 10000
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html data/cache || true
+          if git diff --cached --quiet; then echo "No changes"; else git commit -m "chore: refresh dashboard" && git push; fi
